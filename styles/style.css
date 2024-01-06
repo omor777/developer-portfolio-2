@@ -244,7 +244,6 @@ body {
 /* resume section */
 
 #resume {
-  
   max-width: 1140px;
   margin: 0 auto 113px;
 }
@@ -288,4 +287,93 @@ body {
 }
 #resume .column > div > hr {
   margin-bottom: 30px;
+}
+
+/* footer styles */
+
+footer {
+  background: #fff8f3;
+}
+
+footer > div {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 130px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 117px;
+}
+
+footer section:first-child > h3 {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+footer section:first-child > p {
+  color: #474747;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  max-width: 562px;
+  margin-bottom: 30px;
+}
+
+footer section:first-child > ul {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+footer section:first-child > ul li {
+  list-style-type: none;
+}
+footer section:first-child > ul i {
+  font-size: 25px;
+}
+
+footer > div section:last-child {
+}
+footer > div section:last-child > h3 {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+
+footer form {
+  display: flex;
+  flex-direction: column;
+}
+
+footer form input,
+textarea {
+  border-radius: 5px;
+  background: #fff;
+  padding: 18px 30px;
+  border: 0;
+  outline: 0;
+  margin-bottom: 24px;
+}
+
+footer form input::placeholder,
+textarea::placeholder {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+footer form textarea {
+  resize: none;
+}
+footer form input[type="submit"] {
+  align-self: start;
+  border-radius: 5px;
+  background: #fd6e0a;
+  padding: 18px 39px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
 }
