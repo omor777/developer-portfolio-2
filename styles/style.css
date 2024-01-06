@@ -3,3 +3,146 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* shared styles */
+.orange-text {
+  color: #fd6e0a;
+}
+/* header section styles here */
+
+.header {
+  background: #fff8f3;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  position: relative;
+}
+
+.header > .developer {
+  color: rgba(24, 24, 24, 0.15);
+  font-family: Open Sans;
+  font-size: 100px;
+  font-weight: 700;
+  letter-spacing: 33px;
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 23px;
+}
+
+.header > nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 230px;
+}
+
+.header > nav > h3 {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
+.header > nav > ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.header > nav li {
+  list-style-type: none;
+}
+.header > nav a {
+  text-decoration: none;
+  color: #474747;
+  font-size: 20px;
+  font-weight: 400;
+  transition: all 0.3s linear;
+}
+.header > nav a:hover {
+  color: #fd6e0a;
+}
+
+.header > nav button {
+  border-radius: 5px;
+  background: #fd6e0a;
+  padding: 18px 36px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 230px;
+  padding-right: 38px;
+}
+
+.hero-content {
+}
+.hero-content > h3 {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.hero-content > h1 {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.hero-content > p {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  max-width: 585px;
+  margin-bottom: 30px;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.btn-container > button:first-child {
+  padding: 18px;
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-container > button:last-child {
+  padding: 18px 24px;
+  border-radius: 5px;
+  border: 1px solid #fd6e0a;
+  outline: 0;
+  cursor: pointer;
+  background-color: #fff8f3;
+  color: #fd6e0a;
+  font-size: 20px;
+  font-weight: 700;
+}
+
