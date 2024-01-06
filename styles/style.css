@@ -14,6 +14,12 @@ body {
 .orange-text {
   color: #fd6e0a;
 }
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
 /* header section styles here */
 
 .header {
@@ -146,3 +152,45 @@ body {
   font-weight: 700;
 }
 
+#about-me {
+  margin-top: 130px;
+}
+#about-me > div {
+  width: 1140px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background: #fff8f3;
+  padding: 131px 156px;
+}
+#about-me > div > p {
+  max-width: 827px;
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 30px 0;
+}
+#about-me .about-info {
+  display: grid;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+  margin-top: 30px;
+}
+
+#about-me .about-info > div > p {
+  color: #757575;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+#about-me .about-info > div > h4 {
+  color: #474747;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+ 
+}
