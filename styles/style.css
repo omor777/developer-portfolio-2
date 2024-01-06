@@ -125,19 +125,21 @@ body {
   gap: 30px;
 }
 
-.btn-container > button:first-child {
+.btn-container  > button:first-child{
   padding: 18px;
   border-radius: 5px;
   background: #fd6e0a;
   border: 0;
   outline: 0;
-  cursor: pointer;
   color: #fff;
   font-size: 20px;
   font-weight: 700;
   display: flex;
   align-items: center;
   gap: 10px;
+  cursor: pointer;
+  z-index: 5;
+  position: relative;
 }
 
 .btn-container > button:last-child {
@@ -150,6 +152,8 @@ body {
   color: #fd6e0a;
   font-size: 20px;
   font-weight: 700;
+  z-index: 5;
+  position: relative;
 }
 
 #about-me {
@@ -289,6 +293,22 @@ body {
   margin-bottom: 30px;
 }
 
+#resume .download-cv-btn {
+  padding: 18px;
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  display: block;
+  margin: 50px auto 0; 
+}
 /* footer styles */
 
 footer {
